@@ -1,0 +1,11 @@
+
+<suite name="testing">
+	<test name="test1">
+		<classes>
+			<class name="TestNG.Annotations"></class>
+			<class name="TestNG.Annotations2" />
+		</classes>
+	</test>
+</suite>
+
+	

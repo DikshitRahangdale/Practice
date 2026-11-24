@@ -1,0 +1,25 @@
+<suite name="TestParalle" parallel="test0" thread-cout="5">
+	<test name="test0">
+		<parameter name="Browsers" value="Chrome">
+			<classes>
+				<class name="TestNG.ParametersAndParallelTesting" />
+			</classes>
+		</parameter>
+	</test>
+
+	<test name="test1">
+		<parameter name="Browsers" value="Edge">
+			<classes>
+				<class name="TestNG.ParametersAndParallelTesting" />
+			</classes>
+		</parameter>
+	</test>
+
+	<test name="test2">
+		<parameter name="Browsers" value="FireFox">
+			<classes>
+				<class name="TestNG.ParametersAndParallelTesting" />
+			</classes>
+		</parameter>
+	</test>
+</suite>

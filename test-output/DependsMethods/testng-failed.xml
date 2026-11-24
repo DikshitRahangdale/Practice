@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DependsMethods]">
+  <test thread-count="5" name="dependsAnotations(failed)">
+    <classes>
+      <class name="TestNG.DependonMethod1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="homepage"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNG.DependonMethod1 -->
+    </classes>
+  </test> <!-- dependsAnotations(failed) -->
+</suite> <!-- Failed suite [DependsMethods] -->

@@ -1,0 +1,9 @@
+
+<suite name="DependsMethods">
+	<test name="dependsAnotations">
+		<classes>
+			<class name="TestNG.DependonMethod1" />
+
+		</classes>
+	</test>
+</suite>

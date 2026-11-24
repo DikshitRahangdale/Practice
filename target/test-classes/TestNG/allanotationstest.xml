@@ -1,0 +1,12 @@
+<suite name="All_Anotations">
+	<test name="Annotations">
+		<classes>
+			<class name="TestNG.AllTestNgAnnoatation"/>
+		</classes>
+		<groups>
+			<run>
+				<include name="Smoke"/>
+			</run>
+		</groups>
+	</test>
+</suite>

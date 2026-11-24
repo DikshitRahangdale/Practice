@@ -1,0 +1,15 @@
+<suite name="Allanotations">
+	<test name="AllAnotations">
+		<classes>
+			<class name="TestNG.AllAnotations" />
+			
+		</classes>
+	</test>
+
+	<test name="AllAnotations2">
+		<classes>
+			<class name="TestNG.AllAnotations2" />
+
+		</classes>
+	</test>
+</suite>

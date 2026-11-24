@@ -1,0 +1,10 @@
+
+<suite name="parallelTest" thread-count="3" parallel="classes">
+	<test name="parallelclasses">
+		<classes>
+			<class name="TestNG.TestNgFirst" />
+			<class name="TestNG.TestNgSecond" />
+
+		</classes>
+	</test>
+</suite>

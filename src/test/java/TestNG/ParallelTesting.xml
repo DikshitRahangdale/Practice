@@ -1,0 +1,27 @@
+
+<suite name="paralleltesting"  parallel="tests" 
+	thread-count="5">
+	<test name="Test">
+		<parameter name="browsers"  value="Chrome" />
+		<classes>
+			<class name="TestNG.ParallerlTest" />
+			<class name="TestNG.ParallelTest2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test1">
+		<parameter name="browsers"  value="Edge" />
+		<classes>
+			<class name="TestNG.ParallerlTest" />
+			<class name="TestNG.ParallelTest2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Test2">
+		<parameter name="browsers"  value="FireFox" />
+		<classes>
+			<class name="TestNG.ParallerlTest" />
+			<class name="TestNG.ParallelTest2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

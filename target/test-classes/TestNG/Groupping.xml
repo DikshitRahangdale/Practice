@@ -1,0 +1,11 @@
+
+<suite name="Groupping" parallel="classes" thread-count="3">
+	<test name="groups">
+
+
+		<classes>
+			<class name="TestNG.GroupsMultipleTestMethods" />
+			<class name="TestNG.Groups3" />
+		</classes>
+	</test>
+</suite>
