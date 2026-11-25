@@ -35,6 +35,7 @@ public class BaseClass {
 	@AfterClass
 	public void afterClass() {
 		DriverManager.getDriver().quit();
+		soft.assertAll();
 		DriverManager.removeDriver();
 
 	}

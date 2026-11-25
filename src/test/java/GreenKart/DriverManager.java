@@ -15,6 +15,7 @@ public class DriverManager {
 
 	public static void removeDriver() {
 		driver.remove();
+		
 	}
 
 }
