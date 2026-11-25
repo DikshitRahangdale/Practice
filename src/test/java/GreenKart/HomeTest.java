@@ -12,7 +12,7 @@ public class HomeTest extends BaseClass {
 	@BeforeClass
 	public void homePage() {
 		home = new HomePage(DriverManager.getDriver());
-		;
+		//test
 	}
 
 	@Test
