@@ -12,7 +12,7 @@ public class HomeTest extends BaseClass {
 	@BeforeClass
 	public void homePage() {
 		home = new HomePage(DriverManager.getDriver());
-		//test
+
 	}
 
 	@Test
@@ -32,5 +32,9 @@ public class HomeTest extends BaseClass {
 		String str = products.get(0);
 		String actualProductName = products.get(0).split("-")[0].trim();
 		soft.assertEquals(actualProductName, productsName, "Product name or search is not working");
+		home.increaseProductCOunt(2);
+	    List<Integer> prodcutscounts=home.getProductCount();
+	    System.out.println(prodcutscounts);
+	    
 	}
 }
